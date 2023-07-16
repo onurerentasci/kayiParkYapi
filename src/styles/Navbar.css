@@ -1,0 +1,58 @@
+.navbar .nav-link:not(.dropdown-toggle)::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #267296;
+  transition: width 0.2s;
+}
+
+.navbar .nav-link:not(.dropdown-toggle):hover::after {
+  width: 100%;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1800px;
+  }
+}
+
+.nav-link {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.navbar-brand {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.navbar-nav {
+  animation: fadeInRight 1s ease-in-out;
+}

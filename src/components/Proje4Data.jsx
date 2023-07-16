@@ -1,0 +1,73 @@
+import photo1 from "../assets/4.Proje/image1.png";
+import photo2 from "../assets/4.Proje/image2.png";
+import photo3 from "../assets/4.Proje/image3.png";
+import photo4 from "../assets/4.Proje/image4.png";
+import photo6 from "../assets/4.Proje/image6.png";
+import photo7 from "../assets/4.Proje/image7.png";
+import photo8 from "../assets/4.Proje/image8.png";
+import photo9 from "../assets/4.Proje/image9.png";
+import photo10 from "../assets/4.Proje/image10.png";
+import photo11 from "../assets/4.Proje/image11.png";
+import photo12 from "../assets/4.Proje/image12.png";
+import photo13 from "../assets/4.Proje/image13.png";
+import photo14 from "../assets/4.Proje/image14.png";
+import photo15 from "../assets/4.Proje/image15.png";
+import photo16 from "../assets/4.Proje/image16.png";
+import photo18 from "../assets/4.Proje/image18.png";
+import photo19 from "../assets/4.Proje/image19.png";
+import photo20 from "../assets/4.Proje/image20.png";
+import photo21 from "../assets/4.Proje/image21.png";
+import photo22 from "../assets/4.Proje/image22.png";
+import photo23 from "../assets/4.Proje/image23.png";
+import photo24 from "../assets/4.Proje/image24.png";
+import photo25 from "../assets/4.Proje/image25.png";
+import photo26 from "../assets/4.Proje/image26.png";
+import photo27 from "../assets/4.Proje/image27.png";
+import photo28 from "../assets/4.Proje/image28.png";
+import photo29 from "../assets/4.Proje/image29.png";
+import photo30 from "../assets/4.Proje/image30.png";
+import photo31 from "../assets/4.Proje/image31.png";
+import photo32 from "../assets/4.Proje/image32.png";
+import photo33 from "../assets/4.Proje/image33.png";
+import photo34 from "../assets/4.Proje/image34.png";
+import photo35 from "../assets/4.Proje/image35.png";
+import photo36 from "../assets/4.Proje/image36.png";
+
+const images = [
+  { src: photo1 },
+  { src: photo2 },
+  { src: photo3 },
+  { src: photo4 },
+  { src: photo6 },
+  { src: photo7 },
+  { src: photo8 },
+  { src: photo9 },
+  { src: photo10 },
+  { src: photo11 },
+  { src: photo12 },
+  { src: photo13 },
+  { src: photo14 },
+  { src: photo15 },
+  { src: photo16 },
+  { src: photo18 },
+  { src: photo19 },
+  { src: photo20 },
+  { src: photo21 },
+  { src: photo22 },
+  { src: photo23 },
+  { src: photo24 },
+  { src: photo25 },
+  { src: photo26 },
+  { src: photo27 },
+  { src: photo28 },
+  { src: photo29 },
+  { src: photo30 },
+  { src: photo31 },
+  { src: photo32 },
+  { src: photo33 },
+  { src: photo34 },
+  { src: photo35 },
+  { src: photo36 },
+];
+
+export default images;
